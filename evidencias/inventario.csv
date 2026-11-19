@@ -1,0 +1,5 @@
+asset_id,service,environment,criticality,owner,ids_sensor
+AT-001,portal-processual,PROD,ALTA,equipe-web,sim
+AT-002,auth-service,PROD,CRITICA,equipe-identidade,sim
+AT-003,relatorios,PROD,MEDIA,equipe-dados,nao
+AT-004,portal-teste,TESTE,BAIXA,equipe-lab,nao

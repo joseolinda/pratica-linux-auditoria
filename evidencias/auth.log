@@ -1,0 +1,8 @@
+2026-10-14T09:11:03Z user=lab-user-01 result=SUCCESS source=192.0.2.10 service=auth
+2026-10-14T09:12:41Z user=contract-temp result=FAIL source=198.51.100.27 service=auth
+2026-10-14T09:12:43Z user=contract-temp result=FAIL source=198.51.100.27 service=auth
+2026-10-14T09:12:49Z user=contract-temp result=FAIL source=198.51.100.27 service=auth
+2026-10-14T09:14:03Z user=contract-temp result=SUCCESS source=198.51.100.27 service=auth
+2026-10-14T10:02:11Z user=lab-user-02 result=SUCCESS source=203.0.113.12 service=auth
+2026-10-14T10:18:27Z user=svc_batch result=SUCCESS source=192.0.2.80 service=auth
+2026-10-14T10:27:04Z user=lab-user-03 result=FAIL source=203.0.113.44 service=auth

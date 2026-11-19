@@ -1,0 +1,6 @@
+alert_id,source_ip,target_asset,severity,rule,status
+AL-101,198.51.100.27,auth-service,HIGH,login-failure-burst,OPEN
+AL-102,198.51.100.27,auth-service,HIGH,login-failure-burst,OPEN
+AL-103,203.0.113.44,portal-processual,MEDIUM,rare-client,REVIEWED
+AL-104,192.0.2.50,relatorios,LOW,approved-scanner,CLOSED
+AL-105,198.51.100.27,auth-service,HIGH,unusual-login,OPEN

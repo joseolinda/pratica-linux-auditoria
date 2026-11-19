@@ -1,0 +1,5 @@
+change_id,service,requester,approved_by,deployed_at,change_ticket
+CHG-001,portal-processual,dev-a,reviewer-1,2026-10-14T08:00,REQ-001
+CHG-002,auth-service,dev-b,NONE,2026-10-14T09:00,REQ-002
+CHG-003,relatorios,dev-c,reviewer-2,2026-10-14T10:30,REQ-003
+CHG-004,portal-processual,dev-d,NONE,2026-10-14T11:00,REQ-004

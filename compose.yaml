@@ -1,0 +1,34 @@
+services:
+  auditoria:
+    build:
+      context: .
+    read_only: true
+    tmpfs:
+      - /tmp:rw,noexec,nosuid,nodev,size=16m
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    init: true
+    pids_limit: 64
+    volumes:
+      - entrega:/home/aluno/entrega
+    networks:
+      - rede-interna
+    healthcheck:
+      test:
+        - CMD
+        - python3
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080', timeout=2).read(1)"
+      interval: 10s
+      timeout: 3s
+      retries: 3
+      start_period: 2s
+
+networks:
+  rede-interna:
+    internal: true
+
+volumes:
+  entrega:

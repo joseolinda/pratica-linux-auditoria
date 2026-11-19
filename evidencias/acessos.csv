@@ -1,0 +1,5 @@
+account,role,owner,status,last_review
+svc_batch,admin,shared,active,NEVER
+contract-temp,admin,external,active,NEVER
+lab-user-01,operator,team-a,active,2026-10-01
+lab-user-02,operator,team-b,disabled,2026-07-14
